@@ -1,1 +1,12 @@
-<p>This is the partial for view 1.</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th ng-repeat="cell in tableData.thead">{{cell}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="row in tableData.tbody">
+      <td ng-repeat="cell in row">{{cell}}</td>
+    </tr>
+  </tbody>
+</table>
