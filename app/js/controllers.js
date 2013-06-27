@@ -12,4 +12,7 @@ angular.module('myApp.controllers', []).
   }])
   .controller('AddCtrl', [function() {
 
+  }])
+  .controller('NavbarCtrl', [function() {
+
   }]);
