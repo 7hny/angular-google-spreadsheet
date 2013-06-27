@@ -18,7 +18,8 @@ angular.module('myApp.services', ['ngResource']).
             })
           }
         },
-        simpleSheet: true
+        simpleSheet: true,
+        parseNumbers: true
       })
     }
 
