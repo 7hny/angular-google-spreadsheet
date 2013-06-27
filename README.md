@@ -1,3 +1,3 @@
 angular-google-spreadsheet
 ===========
-Google docs spreadshhet as a backend with tabletop.js
+Google docs spreadsheet as a backend with tabletop.js

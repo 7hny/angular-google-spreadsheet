@@ -2,7 +2,7 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>Angular Google Spreadsheet</title>
   <link rel="stylesheet" href="theme/theme.css"/>
 </head>
 <body>
@@ -19,37 +19,14 @@
       </ul>
     </div> -->
 
-    <div class="jumbotron m-top">
-      <h1>Spectent erat</h1>
-      <p>Liberioris terras vindice. Terrarum toto arce abscidit unus fabricator animal reparabat.</p>
-      <button href="" class="btn btn-success btn-large m-top"><span class="glyphicon glyphicon-plus"></span>&nbsp; Add something to list</button>
-    </div>
-
-
-<!--     <div class="row m-top  m-bottom">
-
-      <div class="col col-7">
-        <button href="" class="btn btn-success btn-large"><span class="glyphicon glyphicon-plus"></span>&nbsp; Dodaj się do listy</button>
-      </div>
-
-      <div class="col col-5">
-
-        <blockquote class="pull-right">
-          <p>Nie bój się fazy</p>
-          <small>Someone famous <cite title="Source Title">Source Title</cite></small>
-        </blockquote>
-
-      </div>
-    </div>
- -->
-
 
     <div class="row">
 
       <div class="col col-lg-12">
 
         <div ng-view></div>
-        <div>Angular seed app: v<span app-version></span></div>
+        <hr>
+        <div>Angular Google Spreadsheet: v<span app-version></span></div>
       </div>
     </div>
 
@@ -62,9 +39,7 @@
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular/angular-resource.js"></script>
 
-  <!-- In production use:
-  //<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  -->
+  <script src="vendors/tabletop/src/tabletop.js"></script>
 
   <script src="js/app.js"></script>
   <script src="js/services.js"></script>

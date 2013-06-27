@@ -1,12 +1,24 @@
+<div class="jumbotron m-top">
+  <h1>Angular Google Spreadsheet</h1>
+  <p>Liberioris terras vindice. Terrarum toto arce abscidit unus fabricator animal reparabat.</p>
+  <a href="#/add" class="btn btn-success btn-large m-top"><span class="glyphicon glyphicon-plus"></span>&nbsp; Add something to list</a>
+</div>
+
+
 <table class="table table-striped">
   <thead>
     <tr>
-      <th ng-repeat="cell in tableData.thead">{{cell}}</th>
+      <th>Name</th>
+      <th>Gender</th>
+      <th>Email</th>
+
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="row in tableData.tbody">
-      <td ng-repeat="cell in row">{{cell}}</td>
+    <tr ng-repeat="item in tableData">
+      <td>{{item.name}}</td>
+      <td>{{item.gender}}</td>
+      <td>{{item.email}}</td>
     </tr>
   </tbody>
 </table>
