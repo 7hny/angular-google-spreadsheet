@@ -4,7 +4,12 @@
 
 angular.module('myApp.controllers', []).
   controller('FrontCtrl', ['$scope', 'Gdocs', function($scope, Gdocs) {
-  	Gdocs.getSpreadsheet(function(data) {
+  	Gdocs.getSpreadsheetTabletop(function(data) {
+  		console.log(data);
+  		$scope.tableDataTabletop = data;
+  	})
+
+  	 Gdocs.getSpreadsheet(function(data) {
   		console.log(data);
   		$scope.tableData = data;
   	})
